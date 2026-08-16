@@ -1,25 +1,68 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
+}
+body{
+    background:lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .site-header{
     background-color: aquamarine;
 }
-.header-inner{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-}
-.header-inner::before{
-    margin: 3px;
-}
+
+
 .logo{
     font-family:serif;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
+    
+    align-items: center;
+    padding-left: 10px;
+
+
+}
+.logo:hover{
+    
+    
+    border-bottom: 1px solid black;
+    padding: opx;
+    border-spacing: 2px;
+    border-width: 2px;
+    border-left: black;
+    border-radius: 5px;
+
 
 }
 #span{
     color: brown;
+}
+.nav-bar .nav-links {
+    text-decoration:none;
+    display:flex;
+    gap:15px;
+    padding-bottom:10px;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar .nav-links li{
+    list-style: none;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    position: relative;
+    color:black;
+    font-weight:500;
+}
+ul li a:hover{
+    color:black;
+    border-bottom: 3px;
+    border-radius: 5px;
+    
+    border-bottom: 3px solid black;
+    
 }

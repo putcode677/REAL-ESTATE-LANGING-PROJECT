@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>real estate landing</title>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +31,42 @@
 </header>
 
 
-<h1>welcome to our company</h1>
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">Dar es Salaam &amp; the coast</p>
+    <h1>Find a home that faces the sea.</h1>
+    <p class="hero-sub">Curated houses, apartments and villas across Masaki, Mikocheni,
+      Oyster Bay and beyond — verified listings, no agent runaround.</p>
 
+    <form class="search-bar" id="searchForm">
+      <div class="field">
+        <label for="searchLocation">Location</label>
+        <input type="text" id="searchLocation" placeholder="e.g. Masaki, Mbezi...">
+      </div>
+      <div class="field">
+        <label for="filterType">Property type</label>
+        <select id="filterType">
+          <option value="all">All types</option>
+          <option value="villa">Villa</option>
+          <option value="apartment">Apartment</option>
+          <option value="house">House</option>
+          <option value="condo">Condo</option>
+          <option value="land">Land</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="filterPrice">Price range</label>
+        <select id="filterPrice">
+          <option value="all">Any price</option>
+          <option value="0-150000000">Under 150M TZS</option>
+          <option value="150000000-400000000">150M – 400M TZS</option>
+          <option value="400000000-800000000">400M – 800M TZS</option>
+          <option value="800000000-999999999999">800M TZS +</option>
+        </select>
+      </div>
+      <button type="button" class="btn-primary" id="applyFilters">Search</button>
+    </form>
+  </div>
+</section>
 </body>
 </html>
